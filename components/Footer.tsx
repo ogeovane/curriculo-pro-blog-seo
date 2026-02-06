@@ -17,7 +17,7 @@ export const Footer: React.FC = () => {
               Crie currículos profissionais e modernos em minutos. Totalmente gratuito e otimizado para sistemas de recrutamento.
             </p>
           </div>
-          
+
           <div>
             <h4 className="font-bold text-gray-900 mb-4 text-sm">Plataforma</h4>
             <ul className="space-y-2 text-sm text-gray-500">
@@ -28,7 +28,7 @@ export const Footer: React.FC = () => {
               <li><Link to="/contato" className="hover:text-blue-600">Contato</Link></li>
             </ul>
           </div>
-          
+
           <div>
             <h4 className="font-bold text-gray-900 mb-4 text-sm">Legal</h4>
             <ul className="space-y-2 text-sm text-gray-500">
@@ -38,7 +38,7 @@ export const Footer: React.FC = () => {
               <li><a href="/sitemap.xml" className="hover:text-blue-600">Sitemap</a></li>
             </ul>
           </div>
-          
+
           <div>
             <h4 className="font-bold text-gray-900 mb-4 text-sm">Redes Sociais</h4>
             <div className="flex space-x-4">
@@ -49,9 +49,9 @@ export const Footer: React.FC = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="pt-8 border-t border-gray-100 flex flex-col md:flex-row justify-between items-center text-xs text-gray-400">
-          <p>© 2024 Currículo Pro. Todos os direitos reservados.</p>
+          <p>© 2024 Currículo 1. Todos os direitos reservados.</p>
           <p className="mt-2 md:mt-0">Desenvolvido para sua próxima conquista.</p>
         </div>
       </div>

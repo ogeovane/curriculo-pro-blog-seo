@@ -1,6 +1,6 @@
 
 export const updateSEO = (title: string, description: string) => {
-  document.title = `${title} | Currículo Pro`;
+  document.title = `${title} | Currículo 1`;
   let metaDesc = document.querySelector('meta[name="description"]');
   if (!metaDesc) {
     metaDesc = document.createElement('meta');

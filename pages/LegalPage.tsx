@@ -8,7 +8,7 @@ interface LegalPageProps {
 
 export const LegalPage: React.FC<LegalPageProps> = ({ title }) => {
   useEffect(() => {
-    updateSEO(title, `Página de ${title} do Currículo Pro.`);
+    updateSEO(title, `Página de ${title} do Currículo 1.`);
   }, [title]);
 
   return (
@@ -16,7 +16,7 @@ export const LegalPage: React.FC<LegalPageProps> = ({ title }) => {
       <h1 className="text-4xl font-extrabold text-gray-900 mb-10">{title}</h1>
       <div className="prose prose-blue max-w-none text-gray-600 leading-loose">
         <p className="mb-6">
-          Nós do Currículo Pro valorizamos sua privacidade e transparência. Esta página contém informações importantes sobre como operamos nossa plataforma e processamos seus dados (ou não, já que não armazenamos dados de currículo em nossos servidores de forma permanente).
+          Nós do Currículo 1 valorizamos sua privacidade e transparência. Esta página contém informações importantes sobre como operamos nossa plataforma e processamos seus dados (ou não, já que não armazenamos dados de currículo em nossos servidores de forma permanente).
         </p>
 
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">1. Coleta de Informações</h2>
@@ -30,7 +30,7 @@ export const LegalPage: React.FC<LegalPageProps> = ({ title }) => {
         <p>Seguimos as diretrizes da Lei Geral de Proteção de Dados (LGPD) no Brasil. Como ferramenta gratuita, nosso objetivo é o empoderamento do candidato, não a comercialização de dados sensíveis.</p>
 
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">4. Limitação de Responsabilidade</h2>
-        <p>O Currículo Pro é uma ferramenta de auxílio. Não garantimos contratações ou entrevistas, visto que isso depende exclusivamente da qualidade das informações inseridas pelo usuário e do interesse dos recrutadores.</p>
+        <p>O Currículo 1 é uma ferramenta de auxílio. Não garantimos contratações ou entrevistas, visto que isso depende exclusivamente da qualidade das informações inseridas pelo usuário e do interesse dos recrutadores.</p>
 
         <div className="mt-12 pt-8 border-t border-gray-100 text-sm italic">
           Última atualização: Junho de 2024.

@@ -8,7 +8,7 @@ export const ContactPage: React.FC = () => {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    updateSEO("Contato - Currículo Pro", "Entre em contato conosco para suporte, sugestões ou parcerias.");
+    updateSEO("Contato - Currículo 1", "Entre em contato conosco para suporte, sugestões ou parcerias.");
     window.scrollTo(0, 0);
   }, []);
 
@@ -57,7 +57,7 @@ export const ContactPage: React.FC = () => {
               </div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Mensagem Enviada!</h2>
               <p className="text-gray-500 mb-8">Obrigado pelo contato. Responderemos em até 24 horas úteis no e-mail informado.</p>
-              <button 
+              <button
                 onClick={() => setSubmitted(false)}
                 className="text-blue-600 font-bold hover:underline"
               >
@@ -68,32 +68,32 @@ export const ContactPage: React.FC = () => {
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="space-y-2">
                 <label className="text-sm font-bold text-gray-700 ml-1">Seu Nome</label>
-                <input 
+                <input
                   required
-                  type="text" 
+                  type="text"
                   placeholder="Ex: João Silva"
                   className="w-full p-4 bg-gray-50 border border-gray-100 rounded-2xl focus:ring-4 focus:ring-blue-100 focus:bg-white outline-none transition-all"
                 />
               </div>
               <div className="space-y-2">
                 <label className="text-sm font-bold text-gray-700 ml-1">E-mail para resposta</label>
-                <input 
+                <input
                   required
-                  type="email" 
+                  type="email"
                   placeholder="seu@email.com"
                   className="w-full p-4 bg-gray-50 border border-gray-100 rounded-2xl focus:ring-4 focus:ring-blue-100 focus:bg-white outline-none transition-all"
                 />
               </div>
               <div className="space-y-2">
                 <label className="text-sm font-bold text-gray-700 ml-1">Mensagem</label>
-                <textarea 
+                <textarea
                   required
                   rows={5}
                   placeholder="Como podemos te ajudar hoje?"
                   className="w-full p-4 bg-gray-50 border border-gray-100 rounded-2xl focus:ring-4 focus:ring-blue-100 focus:bg-white outline-none transition-all"
                 />
               </div>
-              <button 
+              <button
                 disabled={loading}
                 type="submit"
                 className="w-full bg-blue-600 text-white py-4 rounded-2xl font-black text-lg hover:bg-blue-700 transition-all flex items-center justify-center shadow-lg shadow-blue-100 disabled:opacity-50"

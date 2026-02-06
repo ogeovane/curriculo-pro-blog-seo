@@ -62,9 +62,9 @@ export const BlogPost: React.FC = () => {
       const match = part.match(/\[(.*?)\]\((.*?)\)/);
       if (match) {
         return (
-          <Link 
-            key={index} 
-            to={match[2]} 
+          <Link
+            key={index}
+            to={match[2]}
             className="text-blue-600 font-semibold hover:underline decoration-blue-200 decoration-2 underline-offset-4"
           >
             {match[1]}
@@ -97,7 +97,7 @@ export const BlogPost: React.FC = () => {
               <Calendar size={12} className="mr-1.5" /> {post.date}
             </span>
             <span className="text-gray-400 flex items-center">
-              <User size={12} className="mr-1.5" /> Redação Currículo Pro
+              <User size={12} className="mr-1.5" /> Redação Currículo 1
             </span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-gray-900 tracking-tighter leading-[1.1] mb-8">
@@ -109,7 +109,7 @@ export const BlogPost: React.FC = () => {
         </header>
 
         <div className="mb-16 rounded-3xl overflow-hidden shadow-2xl ring-1 ring-gray-200">
-           <img src={`https://picsum.photos/seed/${post.slug}/1200/600`} alt={post.title} className="w-full h-auto object-cover aspect-video" />
+          <img src={`https://picsum.photos/seed/${post.slug}/1200/600`} alt={post.title} className="w-full h-auto object-cover aspect-video" />
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-16">
@@ -139,9 +139,9 @@ export const BlogPost: React.FC = () => {
                   <Share2 size={20} className="mr-3 text-blue-600" /> Compartilhar
                 </h4>
                 <div className="grid grid-cols-3 gap-3">
-                   <button className="h-12 bg-blue-50 text-blue-600 flex items-center justify-center rounded-xl hover:bg-blue-600 hover:text-white transition font-bold">FB</button>
-                   <button className="h-12 bg-blue-50 text-blue-600 flex items-center justify-center rounded-xl hover:bg-blue-600 hover:text-white transition font-bold">TW</button>
-                   <button className="h-12 bg-blue-50 text-blue-600 flex items-center justify-center rounded-xl hover:bg-blue-600 hover:text-white transition font-bold">WA</button>
+                  <button className="h-12 bg-blue-50 text-blue-600 flex items-center justify-center rounded-xl hover:bg-blue-600 hover:text-white transition font-bold">FB</button>
+                  <button className="h-12 bg-blue-50 text-blue-600 flex items-center justify-center rounded-xl hover:bg-blue-600 hover:text-white transition font-bold">TW</button>
+                  <button className="h-12 bg-blue-50 text-blue-600 flex items-center justify-center rounded-xl hover:bg-blue-600 hover:text-white transition font-bold">WA</button>
                 </div>
               </div>
 

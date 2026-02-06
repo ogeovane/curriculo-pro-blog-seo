@@ -5,7 +5,7 @@ import { HelpCircle, ChevronDown } from 'lucide-react';
 
 export const FAQPage: React.FC = () => {
   useEffect(() => {
-    updateSEO("Perguntas Frequentes - Currículo Pro", "Tire todas as suas dúvidas sobre como criar o currículo perfeito e como funciona nossa plataforma.");
+    updateSEO("Perguntas Frequentes - Currículo 1", "Tire todas as suas dúvidas sobre como criar o currículo perfeito e como funciona nossa plataforma.");
   }, []);
 
   const faqs = [
@@ -38,7 +38,7 @@ export const FAQPage: React.FC = () => {
           <HelpCircle className="text-blue-600" size={32} />
         </div>
         <h1 className="text-4xl font-extrabold text-gray-900 mb-4">Perguntas Frequentes</h1>
-        <p className="text-xl text-gray-500">Tudo o que você precisa saber sobre o Currículo Pro.</p>
+        <p className="text-xl text-gray-500">Tudo o que você precisa saber sobre o Currículo 1.</p>
       </div>
 
       <div className="space-y-4">
