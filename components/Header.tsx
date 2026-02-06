@@ -13,7 +13,7 @@ export const Header: React.FC = () => {
           </div>
           <span className="text-xl font-bold tracking-tight text-gray-900">Currículo <span className="text-blue-600">1</span></span>
         </Link>
-        
+
         <nav className="hidden md:flex space-x-8 text-sm font-medium">
           <Link to="/" className="text-gray-500 hover:text-blue-600 transition">Início</Link>
           <Link to="/curriculo" className="text-gray-500 hover:text-blue-600 transition">Gerador</Link>
@@ -22,8 +22,8 @@ export const Header: React.FC = () => {
         </nav>
 
         <div className="flex items-center space-x-4">
-          <Link 
-            to="/curriculo" 
+          <Link
+            to="/curriculo"
             className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-blue-700 transition"
           >
             Gerar Agora
