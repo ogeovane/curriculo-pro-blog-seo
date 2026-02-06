@@ -11,7 +11,7 @@ export const Header: React.FC = () => {
           <div className="bg-blue-600 p-1.5 rounded-lg">
             <FileText className="text-white w-6 h-6" />
           </div>
-          <span className="text-xl font-bold tracking-tight text-gray-900">Currículo <span className="text-blue-600">Pro</span></span>
+          <span className="text-xl font-bold tracking-tight text-gray-900">Currículo <span className="text-blue-600">1</span></span>
         </Link>
         
         <nav className="hidden md:flex space-x-8 text-sm font-medium">

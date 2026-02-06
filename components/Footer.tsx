@@ -11,7 +11,7 @@ export const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-1">
             <Link to="/" className="flex items-center space-x-2 mb-4">
               <FileText className="text-blue-600 w-6 h-6" />
-              <span className="text-xl font-bold tracking-tight">Currículo <span className="text-blue-600">Pro</span></span>
+              <span className="text-xl font-bold tracking-tight">Currículo <span className="text-blue-600">1</span></span>
             </Link>
             <p className="text-gray-500 text-sm">
               Crie currículos profissionais e modernos em minutos. Totalmente gratuito e otimizado para sistemas de recrutamento.
