@@ -75,6 +75,10 @@
         "initial_data": {
             "name": "Your Full Name",
             "role": "Desired Role",
+            "email": "youremail@example.com",
+            "phone": "+1 234-567-890",
+            "location": "New York, NY",
+            "linkedin": "linkedin.com/in/youruser",
             "summary": "Impactful professional summary highlighting your key achievements and career goals.",
             "exp_company": "Company Name",
             "exp_role": "Your Role",
@@ -82,6 +86,7 @@
             "exp_desc": "• Responsible for X\n• Achieved Y with Z% increase",
             "edu_inst": "Example University",
             "edu_degree": "Bachelor of Administration",
+            "edu_year": "2019",
             "skills": [
                 "Communication",
                 "Time Management",

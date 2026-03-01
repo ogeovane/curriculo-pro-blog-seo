@@ -37,6 +37,7 @@ export interface BlogPost {
   category: string;
   content: string;
   date: string;
+  lang: string;
 }
 
 export enum TemplateType {

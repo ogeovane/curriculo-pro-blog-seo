@@ -75,6 +75,10 @@
         "initial_data": {
             "name": "Su Nombre Completo",
             "role": "Cargo Deseado",
+            "email": "sucorreo@ejemplo.com",
+            "phone": "+34 912 345 678",
+            "location": "Madrid, ES",
+            "linkedin": "linkedin.com/in/suusuario",
             "summary": "Resumen profesional impactante destacando sus principales logros y objetivos de carrera.",
             "exp_company": "Nombre de la Empresa",
             "exp_role": "Su Cargo",
@@ -82,6 +86,7 @@
             "exp_desc": "• Responsable de X\n• Logro Y con un aumento de Z%",
             "edu_inst": "Universidad Ejemplo",
             "edu_degree": "Bachillerato en Administración",
+            "edu_year": "2019",
             "skills": [
                 "Comunicación",
                 "Gestión del tiempo",

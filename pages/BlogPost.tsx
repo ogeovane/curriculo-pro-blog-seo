@@ -8,9 +8,10 @@ import { ArrowLeft, Share2, Calendar, User, Bookmark } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 export const BlogPost: React.FC = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const { slug } = useParams();
-  const post = BLOG_POSTS.find(p => p.slug === slug);
+  const language = i18n.language.split('-')[0];
+  const post = BLOG_POSTS.find(p => p.slug === slug && p.lang === language);
 
   useEffect(() => {
     if (post) {
@@ -150,7 +151,7 @@ export const BlogPost: React.FC = () => {
               <div className="bg-gray-900 p-8 rounded-[2.5rem] text-white">
                 <h4 className="font-black mb-6 text-xl tracking-tight">{t('blog.trending')}</h4>
                 <ul className="space-y-6">
-                  {BLOG_POSTS.filter(p => p.slug !== slug).slice(0, 3).map(p => (
+                  {BLOG_POSTS.filter(p => p.slug !== slug && p.lang === language).slice(0, 3).map(p => (
                     <li key={p.slug} className="group">
                       <Link to={`/blog/${p.slug}`} className="block">
                         <span className="text-xs font-bold text-blue-400 uppercase tracking-widest mb-2 block">{p.category}</span>

@@ -8,7 +8,9 @@ import { Calendar, Tag, ChevronRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 export const BlogList: React.FC = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const language = i18n.language.split('-')[0];
+  const filteredPosts = BLOG_POSTS.filter(post => post.lang === language);
 
   useEffect(() => {
     updateSEO(t('blog.title'), t('blog.header_subtitle'));
@@ -26,7 +28,7 @@ export const BlogList: React.FC = () => {
       <Adsense slot="blog-list-top" />
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {BLOG_POSTS.map((post) => (
+        {filteredPosts.map((post) => (
           <article key={post.slug} className="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-all group">
             <Link to={`/blog/${post.slug}`}>
               <div className="h-48 bg-blue-50 overflow-hidden">

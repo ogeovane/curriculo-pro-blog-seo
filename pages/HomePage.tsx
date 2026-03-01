@@ -58,7 +58,16 @@ export const HomePage: React.FC = () => {
           <p className="text-gray-300 mb-8 leading-relaxed">
             {t('home.section_desc')}
           </p>
-          <Link to="/blog/como-fazer-um-curriculo-perfeito" className="text-blue-400 font-bold hover:underline flex items-center">
+          <Link
+            to={
+              i18n.language.startsWith('pt')
+                ? "/blog/como-fazer-um-curriculo-perfeito"
+                : i18n.language.startsWith('es')
+                  ? "/blog/como-hacer-un-curriculum-perfecto"
+                  : "/blog/how-to-make-a-perfect-resume"
+            }
+            className="text-blue-400 font-bold hover:underline flex items-center"
+          >
             {t('home.section_link')} <ArrowRight className="ml-2 w-4 h-4" />
           </Link>
         </div>

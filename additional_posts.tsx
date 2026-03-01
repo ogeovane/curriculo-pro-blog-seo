@@ -10,6 +10,7 @@ export const ADDITIONAL_BLOG_POSTS: BlogPost[] = [
         description: 'O mundo do trabalho está evoluindo rápido. Entenda as megatendências que estão moldando as contratações e as carreiras em 2026.',
         category: 'Tendências',
         date: '2024-06-10',
+        lang: 'pt',
         content: `## A Revolução Silenciosa de 2026
 
 O mercado de trabalho em 2026 não é apenas uma versão "mais tecnológica" do que tínhamos há cinco anos. Estamos vivendo uma mudança estrutural na forma como o valor profissional é percebido e recompensado. Se você quer se manter relevante, precisa entender que as regras do jogo mudaram drasticamente.
@@ -64,6 +65,7 @@ A única constante em 2026 é a mudança. O profissional de sucesso não é o qu
         description: 'Em um mundo dominado pela tecnologia, as habilidades puramente humanas tornaram-se o maior diferencial competitivo.',
         category: 'Carreira',
         date: '2024-06-12',
+        lang: 'pt',
         content: `## Por que as Soft Skills são o Novo Ouro em 2026?
 
 Com a automação de quase todas as tarefas técnicas, o que sobra é o que nos torna exclusivamente humanos. Em 2026, as *soft skills* (habilidades comportamentais) não são mais "diferenciais", elas são o núcleo da empregabilidade.
@@ -116,6 +118,7 @@ Lembre-se: um [currículo perfeito em 2026](https://exemplo.com/blog/como-fazer-
         description: 'Entenda os bastidores da seleção por robôs e use isso a seu favor para conseguir mais entrevistas.',
         category: 'Tecnologia',
         date: '2024-06-15',
+        lang: 'pt',
         content: `## O Novo Porteiro das Empresas: O Algoritmo
 
 Se você aplicou para uma vaga recentemente e recebeu uma negativa em menos de 10 minutos, você provavelmente interagiu com uma IA de triagem. Em 2026, a Inteligência Artificial não apenas lê seu currículo, ela o analisa, compara com o mercado e dá uma "nota de compatibilidade" (match score).
@@ -162,6 +165,7 @@ Lembre-se: a IA te leva até a porta, mas quem te puxa para dentro é um humano.
         description: 'Evite o erro que faz 40% dos recrutadores desconfiarem de um candidato logo na primeira análise.',
         category: 'Estratégia',
         date: '2024-06-18',
+        lang: 'pt',
         content: `## A Investigação Digital: O Primeiro Passo do Recrutador
 
 Você enviou seu currículo. O recrutador gostou. O que ele faz em seguida? **Ele vai direto para o seu LinkedIn.**
@@ -207,6 +211,7 @@ Em 2026, você é uma marca. E marcas fortes são, antes de tudo, consistentes. 
         description: 'Pare de enviar currículos genéricos. Aprenda a técnica cirúrgica para brilhar em cada aplicação.',
         category: 'Estratégia',
         date: '2024-06-20',
+        lang: 'pt',
         content: `## A Morte do Currículo "Faz-Tudo"
 
 O maior erro que você pode cometer em 2026 é acreditar que um único arquivo de currículo servirá para todas as vagas. Na era da Inteligência Artificial e dos filtros ultraespecíficos, currículos genéricos são currículos invisíveis.
@@ -254,6 +259,7 @@ Não faça isso manualmente em um arquivo Word bagunçado toda vez.
         description: 'A eterna dúvida entre o básico que funciona e o design que impressiona. Saiba qual escolher para sua carreira.',
         category: 'Design',
         date: '2024-06-25',
+        lang: 'pt',
         content: `## A Batalha dos Estilos: O Que os Olhos dos Recrutadores Buscam
 
 Na hora de criar seu documento, surge a dúvida: devo usar um [modelo tradicional e limpo](https://exemplo.com/blog/curriculo-ats-o-que-e) ou apostar em algo visualmente mais arrojado? Em 2026, a resposta não é "um ou outro", mas sim "qual é o contexto".
@@ -311,6 +317,7 @@ Não escolha o modelo que você acha "mais bonito", escolha o que melhor comunic
         description: 'O guia completo para quem quer cruzar fronteiras sem sair de casa e conquistar o mercado global.',
         category: 'Carreira',
         date: '2024-06-28',
+        lang: 'pt',
         content: `## O Sonho de Ganhar em Moeda Forte
 
 Trabalhar remotamente para empresas dos EUA, Europa ou Canadá tornou-se o objetivo de muitos brasileiros em 2026. E com toda razão: o salário é competitivo e o aprendizado cultural é imenso. Mas atenção: o seu currículo em português traduzido no Google Translate **não vai funcionar**.
@@ -353,6 +360,7 @@ Preparar um currículo internacional exige uma mudança de mentalidade. Você pr
         description: 'A resposta definitiva para uma das dúvidas mais frequentes dos candidatos.',
         category: 'Dicas',
         date: '2024-07-02',
+        lang: 'pt',
         content: `## O Dilema do Formato: Por que Isso Importa?
 
 Você passou horas escrevendo [o currículo perfeito](https://exemplo.com/blog/como-fazer-um-curriculo-perfeito). Agora, na hora de salvar, vem a dúvida: .docx ou .pdf? Embora pareça um detalhe técnico bobo, o formato do arquivo pode ser a diferença entre um currículo legível e um amontoado de caracteres sem sentido na tela do recrutador.
@@ -402,6 +410,7 @@ Em 95% dos casos, o PDF é a sua melhor escolha em 2026. Ele protege seu design 
         description: 'Nunca é tarde para recomeçar. Aprenda a usar sua experiência atual para conquistar um novo caminho profissional.',
         category: 'Carreira',
         date: '2024-07-05',
+        lang: 'pt',
         content: `## A Era da Carreira de "Múltiplos Atos"
 
 Em 2026, a ideia de ter uma única profissão para a vida toda morreu. Com o aumento da longevidade laboral e as rápidas mudanças tecnológicas, mudar de área tornou-se o novo normal. Profissionais de marketing virando desenvolvedores, advogados migrando para análise de dados, e professores tornando-se especialistas em RH são movimentos diários.
@@ -446,6 +455,7 @@ Mudar de carreira exige coragem, mas não precisa ser um salto no escuro. Em 202
         description: 'O guia definitivo para transformar a IA em sua melhor aliada no escritório (ou no home office).',
         category: 'Tecnologia',
         date: '2024-07-08',
+        lang: 'pt',
         content: `## O Profissional "Centauro": Humano + Máquina
 
 Em 2026, a produtividade não é mais medida por quantas horas você passa sentado na frente do computador, mas por quão bem você consegue orquestrar ferramentas para entregar valor. Aqueles que chamamos de "Profissionais Centauros" — que combinam o julgamento humano com a velocidade da IA — estão ganhando as melhores promoções.
@@ -485,6 +495,7 @@ A IA não veio para te dar mais trabalho, veio para te devolver o tempo que voc�
         description: 'Por que a forma como você enxerga seus fracassos é o maior preditor do seu sucesso futuro.',
         category: 'Comportamento',
         date: '2024-07-12',
+        lang: 'pt',
         content: `## A Teoria que Mudou o Vale do Silício
 
 Popularizada pela psicóloga Carol Dweck, a "Mentalidade de Crescimento" (Growth Mindset) tornou-se a filosofia base das maiores empresas de tecnologia em 2026. A premissa é simples: suas habilidades não são fixas. Você pode desenvolver qualquer competência através de esforço, estratégia e feedback.
@@ -530,6 +541,7 @@ Essa pequena adição muda seu cérebro de um estado de fechamento para um de po
         description: 'A arte de criar conexões reais em um mundo saturado de mensagens automáticas.',
         category: 'Estratégia',
         date: '2024-07-15',
+        lang: 'pt',
         content: `## O Medo da Mensagem no "Direct"
 
 Você encontrou a vaga dos seus sonhos. Você vê quem é o recrutador. O dedo coça para mandar uma mensagem, mas o medo de parecer "desesperado" ou "chato" te trava. Soa familiar? Em 2026, o networking via LinkedIn é responsável por 60% das contratações de alta qualidade. Saber como fazer essa abordagem é uma habilidade de vendas aplicada à sua própria carreira.
@@ -576,6 +588,7 @@ O melhor momento para fazer networking é quando você **não** precisa de empre
         description: 'Trabalhar de pijama é o começo, não o fim. Veja como ser um profissional de elite no mundo distribuído.',
         category: 'Carreira',
         date: '2024-07-18',
+        lang: 'pt',
         content: `## O Fim do "Escritório" como o Conhecíamos
 
 Em 2026, o trabalho remoto não é mais um "experimento", é a infraestrutura do capitalismo global. No entanto, trabalhar de qualquer lugar exige uma disciplina que o escritório físico impunha pela presença. Ser um profissional remoto de elite exige mais do que uma boa internet; exige uma nova mentalidade de trabalho.
@@ -619,6 +632,7 @@ O trabalho remoto oferece a liberdade geográfica que sempre sonhamos, mas cobra
         description: 'Alta performance não é sobre correr mais rápido, é sobre correr por mais tempo.',
         category: 'Comportamento',
         date: '2024-07-22',
+        lang: 'pt',
         content: `## A Epidemia da Exaustão em 2026
 
 Em um mercado que exige [atualização constante](https://exemplo.com/blog/tendencias-mercado-trabalho-2026) e resultados imediatos, o *Burnout* deixou de ser uma exceção para se tornar uma sombra constante. Mas aqui está o segredo dos C-Levels de sucesso em 2026: eles não trabalham mais que você, eles se recuperam melhor que você.
@@ -661,6 +675,7 @@ O mercado de trabalho de 2026 é fascinante e cheio de chances, mas ele é voraz
         description: 'A tecnologia não é neutra. Saiba como navegar pelos preconceitos digitais e garantir sua vaga.',
         category: 'Tecnologia',
         date: '2024-07-25',
+        lang: 'pt',
         content: `## A Máquina Preconceituosa?
 
 Embora a IA prometa processos de seleção mais justos, em 2026 sabemos que os algoritmos podem herdar vieses dos dados com os quais foram treinados. Se uma IA aprendeu que "os melhores gerentes dos últimos 20 anos" tinham determinado histórico, ela pode, inconscientemente, penalizar perfis disruptivos, minorias ou pessoas com trajetórias não-lineares.
@@ -702,6 +717,7 @@ O algoritmo é apenas uma ferramenta, e como toda ferramenta, tem falhas. O segr
         description: 'Negociar é uma arte. Saiba o que é valorizado e como garantir o melhor pacote de compensação.',
         category: 'Estratégia',
         date: '2024-07-28',
+        lang: 'pt',
         content: `## O Poder Mudou de Mão
 
 Em 2026, com a escassez de talentos qualificados em diversas áreas técnicas, o candidato tem mais poder de negociação do que nunca. No entanto, muitos ainda perdem dinheiro por não saberem o que pedir ou como pedir. Salário base é apenas uma parte do pacote.
@@ -740,6 +756,7 @@ O mercado de 2026 não perdoa quem não se valoriza. Um [currículo de alta perf
         description: 'Pequenos ajustes na sua escrita podem dobrar sua credibilidade profissional.',
         category: 'Dicas',
         date: '2024-08-01',
+        lang: 'pt',
         content: `## Sua Escrita é sua Foto de Perfil
 
 No mundo do trabalho remoto e assíncrono de 2026, a forma como você escreve é como as pessoas te "veem". Um e-mail com erros de concordância ou um relatório mal estruturado passa uma imagem de desleixo, mesmo que você seja um gênio técnico.
@@ -779,6 +796,7 @@ O objetivo da escrita profissional é mover a ação. Se o seu interlocutor prec
         description: 'Uma viagem às próximas fronteiras do trabalho humano.',
         category: 'Tendências',
         date: '2024-08-05',
+        lang: 'pt',
         content: `## A Velocidade da Mudança
 
 Se 2026 pareceu rápido, 2030 será uma revolução completa. A convergência entre biotecnologia, computação quântica e IA de nível humano criará categorias de trabalho que hoje parecem ficção científica. Mas não se engane: as sementes dessas carreiras estão sendo plantadas agora.
@@ -812,5 +830,39 @@ Mantenha seu [currículo sempre atualizado](https://exemplo.com/blog/como-fazer-
 As carreiras de 2030 exigirão que sejamos "profissionais em forma de T": com um conhecimento profundo em uma área, mas uma curiosidade vasta por todas as outras.
 
 **O futuro começa agora.** Use ferramentas que te colocam na vanguarda do mercado e mostre ao mundo que você está pronto para o que vier!`
+    },
+    {
+        slug: 'carreira-esg-sustentabilidade-2026',
+        title: 'Carreiras Verdes: Como se Especializar em ESG e Sustentabilidade',
+        metaTitle: 'Carreiras ESG 2026 | Como Trabalhar com Sustentabilidade',
+        metaDescription: 'O mercado de trabalho está ficando verde. Descubra as novas profissões na área de sustentabilidade e como adaptar seu currículo para o setor de ESG.',
+        description: 'A sustentabilidade deixou de ser um setor e tornou-se uma competência exigida em todos os cargos.',
+        category: 'Tendências',
+        date: '2024-08-10',
+        lang: 'pt',
+        content: `## O Capitalismo de Stakeholders em 2026
+        
+Em 2026, o ESG (Environmental, Social, and Governance) não é mais apenas uma sigla em relatórios anuais; é o motor das decisões de investimento e contratação. Empresas que ignoram o impacto ambiental ou a responsabilidade social estão perdendo valor de mercado e, consequentemente, espaço no recrutamento.
+
+Mas o que significa "trabalhar com ESG"? Não é apenas para biólogos ou engenheiros ambientais. Hoje, precisamos de advogados especializados em direito climático, contadores de carbono e gestores de diversidade no RH.
+
+[Leia mais sobre Carreiras Verdes](/blog/carreira-esg-sustentabilidade-2026)`
+    },
+    {
+        slug: 'guia-gig-economy-freelancer-2026',
+        title: 'Guia da Gig Economy: Como Viver de Projetos em 2026',
+        metaTitle: 'Viver de Freelancer 2026 | Guia Gig Economy',
+        metaDescription: 'O emprego fixo não é a única opção. Aprenda a gerir sua carreira como um negócio independente e conquistar clientes globais como freelancer de elite.',
+        description: 'A liberdade de ser seu próprio chefe exige a responsabilidade de ser seu próprio RH e financeiro.',
+        category: 'Estratégia',
+        date: '2024-08-15',
+        lang: 'pt',
+        content: `## A Era do Profissional Autônomo de Elite
+        
+Trabalhar por projetos (Gig Economy) evoluiu de um "quebra-galho" para uma escolha estratégica de carreira em 2026. Profissionais seniores estão trocando a estabilidade aparente do regime CLT pela liberdade e pelos altos ganhos do mercado freelancer global.
+
+No entanto, ser um freelancer de sucesso exige uma mentalidade de "Eu S.A.". Você não é mais um funcionário; você é um prestador de serviços que precisa de uma marca pessoal forte, um pipeline de vendas e uma gestão financeira rigorosa.
+
+[Leia o guia completo da Gig Economy](/blog/guia-gig-economy-freelancer-2026)`
     }
 ];

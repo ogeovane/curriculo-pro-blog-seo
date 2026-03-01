@@ -9,14 +9,54 @@ import { updateSEO } from '../lib/seo';
 import { useTranslation } from 'react-i18next';
 
 export const ResumeBuilder: React.FC = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [data, setData] = useState<ResumeData>(INITIAL_RESUME_DATA);
   const [template, setTemplate] = useState<TemplateType>(TemplateType.MINIMAL_ATS);
   const [view, setView] = useState<'edit' | 'preview'>('edit');
+  const [hasStartedEditing, setHasStartedEditing] = useState(false);
 
   useEffect(() => {
     updateSEO(t('builder.form_title'), t('builder.tip'));
   }, [t]);
+
+  useEffect(() => {
+    if (!hasStartedEditing) {
+      const initialData: ResumeData = {
+        name: t('builder.initial_data.name'),
+        role: t('builder.initial_data.role'),
+        email: t('builder.initial_data.email'),
+        phone: t('builder.initial_data.phone'),
+        location: t('builder.initial_data.location'),
+        linkedin: t('builder.initial_data.linkedin'),
+        summary: t('builder.initial_data.summary'),
+        experiences: [
+          {
+            id: '1',
+            company: t('builder.initial_data.exp_company'),
+            role: t('builder.initial_data.exp_role'),
+            period: t('builder.initial_data.exp_period'),
+            description: t('builder.initial_data.exp_desc')
+          }
+        ],
+        education: [
+          {
+            id: '1',
+            institution: t('builder.initial_data.edu_inst'),
+            degree: t('builder.initial_data.edu_degree'),
+            year: t('builder.initial_data.edu_year')
+          }
+        ],
+        skills: t('builder.initial_data.skills', { returnObjects: true }) as string[],
+        languages: t('builder.initial_data.languages', { returnObjects: true }) as string[]
+      };
+      setData(initialData);
+    }
+  }, [i18n.language, hasStartedEditing, t]);
+
+  const handleDataChange = (newData: ResumeData) => {
+    setData(newData);
+    setHasStartedEditing(true);
+  };
 
   const handlePrint = () => {
     window.print();
@@ -67,7 +107,7 @@ export const ResumeBuilder: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 py-8 flex-1 grid grid-cols-1 lg:grid-cols-2 gap-12">
         <div className={`${view === 'edit' ? 'block' : 'hidden lg:block'}`}>
           <h2 className="text-2xl font-bold mb-6 no-print">{t('builder.form_title')}</h2>
-          <ResumeForm data={data} onChange={setData} />
+          <ResumeForm data={data} onChange={handleDataChange} />
         </div>
 
         <div className={`${view === 'preview' ? 'block' : 'hidden lg:block'} sticky top-40 h-fit`}>
