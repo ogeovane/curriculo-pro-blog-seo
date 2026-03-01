@@ -4,157 +4,415 @@ import { BlogPost } from '../types';
 export const ADDITIONAL_BLOG_POSTS_ES: BlogPost[] = [
     {
         slug: 'tendencias-mercado-trabajo-2026',
-        title: 'Tendencias del Mercado de Trabajo en 2026: ¿Qué ha Cambiado?',
-        metaTitle: 'Tendencias Mercado de Trabajo 2026 | Guía de Carrera',
-        metaDescription: 'Descubre los principales cambios en el mercado de trabajo en 2026. De IA generativa a nuevas formas de contratación y trabajo híbrido.',
-        description: 'El mundo del trabajo está evolucionando rápido. Entiende las megatendencias que están moldeando las contrataciones y las carreras en 2026.',
+        title: 'Tendencias del Mercado Laboral en 2026: ¿Qué ha cambiado?',
+        metaTitle: 'Tendencias Mercado Laboral 2026 | Guía de Carrera',
+        metaDescription: 'Descubre los principales cambios en el mercado laboral en 2026. Desde la IA generativa hasta nuevas formas de contratación.',
+        description: 'El mundo del trabajo evoluciona rápido. Entiende las megatendencias que marcan las contrataciones en 2026.',
         category: 'Tendencias',
         date: '2024-06-10',
         lang: 'es',
         content: `## La Revolución Silenciosa de 2026
+        
+El mercado laboral en 2026 no es solo una versión "más tecnológica" de lo que teníamos hace cinco años. Estamos viviendo un cambio estructural en cómo se percibe y recompensa el valor profesional.
 
-El mercado de trabajo en 2026 no es solo una versión "más tecnológica" de lo que teníamos hace cinco años. Estamos viviendo un cambio estructural en la forma en que el valor profesional es percibido y recompensado. Si quieres mantenerte relevante, debes entender que las reglas del juego han cambiado drásticamente.
+### 1. La Simbiosis entre Humano e IA Generativa
+En 2026, la tendencia es la **Co-creación**. Los profesionales que saben usar herramientas de IA para aumentar su productividad son los más disputados. No se trata de saber "hacer", sino de saber "dirigir" el algoritmo.
 
-En este artículo, nos sumergiremos en las 5 tendencias más impactantes que todo profesional debe dominar para no quedarse atrás.
+### 2. Modelos de Trabajo "Liquid-First"
+El trabajo remoto y híbrido ha evolucionado al **Trabajo Líquido**. Las empresas buscan resultados específicos más que horas de reloj.
 
-## 1. La Simbiosis entre Humano e IA Generativa
+### 3. El Ascenso de los "New Collar Jobs"
+El título universitario tradicional pierde el monopolio. Importan las microcertificaciones y el portafolio comprobado.
 
-Olvida el miedo a la IA reemplazando a los humanos. En 2026, la tendencia es la **Co-creación**. Los profesionales que saben usar herramientas de IA para aumentar su productividad en 10x son los más disputados. Ya no se trata de saber "hacer", sino de saber "dirigir" el algoritmo.
-
-### El Nuevo Analfabetismo
-El analfabetismo funcional hoy es no saber formular un *prompt* eficiente o no entender cómo validar la salida de una IA. Ya sea en marketing, programación o RRHH, la IA es tu nueva asistente ejecutiva. Si aún no la estás usando, tu currículum nace obsoleto.
-
-## 2. Modelos de Trabajo "Liquid-First"
-
-El trabajo remoto e híbrido ha evolucionado hacia lo que llamamos **Trabajo Líquido**. Las empresas ya no buscan necesariamente a alguien para marcar tarjeta 40h a la semana, sino para entregar resultados específicos.
-
-El crecimiento de la *Gig Economy* para profesionales de alta dirección (C-Level as a Service) es una realidad. Puedes trabajar para tres empresas diferentes simultáneamente, entregando experiencia en bloques de valor. Esto requiere una gestión del tiempo impecable y un [currículum adaptado para proyectos](/blog/adaptar-curriculum-por-vacante).
-
-## 3. El Ascenso de los "New Collar Jobs"
-
-El título universitario tradicional está perdiendo el monopolio de la credibilidad. En 2026, lo que importa son las **microcertificaciones** y el portafolio comprobado. Las "vacantes de cuello nuevo" se enfocan en habilidades técnicas específicas adquiridas en bootcamps, cursos intensivos y experiencia práctica.
-
-### Habilidades en Alta:
-- Ética de Datos y Sesgo de Algoritmo.
-- Gestión de Sostenibilidad (ESG en la práctica).
-- Ciberseguridad Comportamental.
-
-## 4. El Bienestar como Métrica de Rendimiento
-
-Después de años de *burnout* colectivo, las empresas han entendido que la salud mental es una cuestión de lucro. En 2026, beneficios como la "semana de 4 días" y el "apoyo psicológico ilimitado" ya no son lujos; son estándares de mercado para retener talento.
-
-Si estás buscando una nueva oportunidad, mirar la cultura de bienestar de la empresa es tan importante como el salario. Un [currículum bien hecho](/blog/como-hacer-un-curriculum-perfecto) debe reflejar que eres un profesional equilibrado que valora la eficiencia, no solo el esfuerzo bruto.
-
-## 5. Regionalismo Globalizado
-
-Con la estabilización de las tecnologías de traducción simultánea en tiempo real, las barreras lingüísticas están cayendo. Un brasileño puede participar en una reunión con un equipo japonés y alemán, cada uno hablando su lengua nativa con una traducción perfecta en sus oídos.
-
-Esto expande tu mercado a todo el mundo. Nunca ha sido tan fácil acceder a [vacantes internacionales](/blog/vacantes-internacionales-curriculum). El mundo es, literalmente, tu oficina.
-
-## Conclusión: La Adaptabilidad es la Soft Skill Suprema
-
-La única constante en 2026 es el cambio. El profesional con éxito no es el que lo sabe todo, sino el que aprende rápido. Aquellos que puedan desaprender procesos antiguos y abrazar nuevas herramientas serán los líderes del mañana.
-
-**Consejo Práctico**: Comienza hoy mismo a actualizar tu perfil. ¡Usa tecnologías que demuestren que estás a la vanguardia, como nuestro generador de currículos inteligente!`
+**Dato Práctico**: ¡Actualiza tu perfil hoy mismo con nuestro generador de currículos inteligente!`
     },
     {
         slug: 'soft-skills-valoradas-2026',
         title: 'Las 7 Soft Skills Más Valoradas por las Empresas en 2026',
         metaTitle: 'Soft Skills Valoradas 2026 | Habilidades de Comportamiento',
-        metaDescription: '¿Cuáles son las habilidades humanas que la IA no puede reemplazar? Mira las 7 soft skills más buscadas por los reclutadores en 2026.',
-        description: 'En un mundo dominado por la tecnología, las habilidades puramente humanas se han convertido en el mayor diferencial competitivo.',
+        metaDescription: '¿Cuáles son las habilidades humanas que la IA no puede reemplazar? Mira las 7 soft skills más buscadas en 2026.',
+        description: 'En un mundo dominado por la tecnología, las habilidades puramente humanas son el mayor diferencial.',
         category: 'Carrera',
         date: '2024-06-12',
         lang: 'es',
-        content: `## ¿Por qué las Soft Skills son el Nuevo Oro en 2026?
+        content: `## Por qué las Soft Skills son el Nuevo Oro
+        
+Con la automatización de tareas técnicas, lo que queda es lo que nos hace únicos como humanos.
 
-Con la automatización de casi todas las tareas técnicas, lo que queda es lo que nos hace exclusivamente humanos. En 2026, las *soft skills* (habilidades de comportamiento) ya no son "diferenciales"; son el núcleo de la empleabilidad.
+### 1. Inteligencia Emocional Aumentada
+Capacidad de gestionar equipos diversos en ambientes de alta presión y remotos.
 
-Los reclutadores ya no están contratando por lo que sabes hacer, sino por **cómo reaccionas** a los desafíos y cómo te relacionas con los demás.
+### 2. Pensamiento Crítico y Filtrado de Información
+Distinguir datos relevantes de "alucinaciones" de IA o fake news.
 
-## 1. Inteligencia Emocional Aumentada
+### 3. Adaptabilidad y Flexibilidad Cognitiva
+Capacidad de aprender una nueva herramienta en una semana y no frustrarse ante el cambio.
 
-No basta solo con controlar tus emociones. En 2026, necesitas la capacidad de gestionar equipos diversos en entornos de alta presión y, a menudo, totalmente remotos. La inteligencia emocional implica empatía digital: leer entre líneas un mensaje de Slack o sentir el clima de una reunión por video.
+### 4. Comunicación Asíncrona Eficiente
+Saber escribir de forma clara y persuasiva para mover proyectos sin necesidad de videollamadas constantes.
 
-## 2. Pensamiento Crítico y Filtrado de Información
-
-Vivimos en la era de la *infoxicación*. La capacidad de distinguir qué es un dato relevante de una alucinación de IA o una *fake news* es vital. Los profesionales que toman decisiones basadas en una lógica sólida, y no solo en la intuición o en sugerencias automáticas, son extremadamente valiosos.
-
-## 3. Adaptabilidad y Flexibilidad Cognitiva
-
-El mundo cambia cada trimestre. La capacidad de cambiar de estrategia rápidamente, aprender una nueva herramienta en una semana y no frustrarse con la inestabilidad es lo que define quién crece en las empresas modernas. Esto es lo que llamamos el "Cociente de Adaptabilidad" (AQ).
-
-## 4. Comunicación Asincrónica Eficiente
-
-¡El fin de las reuniones inútiles ha llegado (finalmente!). En 2026, saber escribir de forma clara, objetiva y persuasiva es la habilidad de comunicación más importante. Necesitas ser capaz de hacer avanzar los proyectos sin necesidad de una videollamada para cada detalle.
-
-## 5. Alfabetización en IA (AI Literacy)
-
-Sí, incluimos esto como una *soft skill* porque se trata de una **mentalidad**. Es la curiosidad intelectual de entender cómo funcionan las nuevas tecnologías y cómo aplicarlas a tu flujo de trabajo de forma ética. No se trata de programar; se trata de comprender las posibilidades.
-
-## 6. Liderazgo Influyente (Sin Jerarquía)
-
-Las estructuras de las empresas son cada vez más horizontales. La habilidad de liderar por influencia, y no por cargo, es esencial. ¿Cómo convences a otras áreas para que ayuden en tu proyecto? ¿Cómo inspiras a tus colegas sin tener poder de despido? Este es el verdadero liderazgo de 2026.
-
-## 7. Ética y Responsabilidad Social
-
-En un mundo donde la tecnología puede escalar errores rápidamente, el sentido ético se ha convertido en una competencia crítica. Los profesionales que consideran el impacto social y ambiental de sus decisiones son vistos como activos estratégicos por las empresas que buscan longevidad.
-
-## ¿Cómo Mostrar estas Habilidades en el Currículum?
-
-No sirve de nada solo enumerar "Tengo buena comunicación". Debes demostrarlo a través de resultados. En tu currículum, usa ejemplos prácticos:
-- "Lideré la transición de un equipo de 10 personas al trabajo 100% asincrónico, reduciendo el tiempo de reuniones en un 40%."
-- "Implementé procesos de validación de datos que redujeron los errores en las salidas de IA en un 15%."
-
-Recuerda: un [currículum perfecto en 2026](/blog/como-hacer-un-curriculum-perfecto) es un equilibrio entre lo que entregas y cómo lo entregas.
-
-**¿Necesitas ayuda para destacar tu perfil?** ¡Usa nuestro generador y elige modelos que se enfoquen en competencias de comportamiento!`
+[Aprende más sobre habilidades comportamentales](/blog/soft-skills-valoradas-2026)`
     },
     {
-        slug: 'inteligencia-artificial-en-el-reclutamiento',
+        slug: 'inteligencia-artificial-reclutamiento',
         title: 'Inteligencia Artificial en el Reclutamiento: ¿Cómo Destacar?',
-        metaTitle: 'IA en el Reclutamiento 2026 | Cómo Pasar los Filtros',
-        metaDescription: 'Descubre cómo los reclutadores usan la IA para seleccionar candidatos y aprende las técnicas para garantizar que tu currículum llegue al tope de la lista.',
-        description: 'Entiende los entresijos de la selección por robots y úsalo a tu favor para conseguir más entrevistas.',
+        metaTitle: 'IA en Reclutamiento 2026 | Cómo Pasar los Filtros',
+        metaDescription: 'Descubre cómo los reclutadores usan la IA para seleccionar candidatos y técnicas para llegar al tope de la lista.',
+        description: 'Entiende los bastidores de la selección por robots y úsalo a tu favor.',
         category: 'Tecnología',
         date: '2024-06-15',
         lang: 'es',
-        content: `## El Nuevo Portero de las Empresas: El Algoritmo
+        content: `## El Nuevo Portero de las Empresas: El Algoritmo 
+        
+La IA no solo lee tu currículo; lo analiza y da una "nota de compatibilidad" (match score).
 
-Si te postulaste para una vacante recientemente y recibiste una negativa en menos de 10 minutos, probablemente interactuaste con una IA de cribado. En 2026, la Inteligencia Artificial no solo lee tu currículum; lo analiza, lo compara con el mercado y otorga una "puntuación de compatibilidad" (match score).
+### Cómo Analiza la IA tu Perfil
+- **Análisis de Trayectoria**: Mira tu progresión y consistencia.
+- **Extracción de Competencias Implícitas**: Entiende que "gestionar presupuesto" implica finanzas y planificación.
+- **Predicción de Desempeño**: Compara tu perfil con empleados exitosos.
 
-Entender cómo funciona esta tecnología es el primer paso para dejar de ser ignorado y comenzar a ser llamado.
+### Técnicas para "Encantar" al Algoritmo
+- **Legibilidad Estructural**: Usa encabezados claros.
+- **Lenguaje de Acción**: Usa verbos fuertes como "Desarrollé", "Lideré".
+- **Contexto**: No solo pongas "Python", pon "Python para Automatización".
 
-## Cómo la IA Analiza tu Perfil en 2026
+**Consejo de Oro**: ¡Usa nuestro generador para tener el mayor match score posible!`
+    },
+    {
+        slug: 'linkedin-curriculum-alineados',
+        title: 'LinkedIn y Currículo: ¿Por qué la Consistencia es tu Mejor Amiga?',
+        metaTitle: 'Alineación LinkedIn y Currículo | Consejos 2026',
+        metaDescription: 'Descubre por qué tener información divergente puede destruir tu proceso de contratación.',
+        description: 'Evita el error que hace que el 40% de los reclutadores desconfíen de un candidato.',
+        category: 'Estrategia',
+        date: '2024-06-18',
+        lang: 'es',
+        content: `## La Investigación Digital
+        
+Después de recibir tu CV, el reclutador va directo a tu LinkedIn. Si las fechas o cargos no coinciden, se levanta una "bandera roja".
 
-A diferencia de los antiguos sistemas ATS, la IA moderna no busca solo palabras clave exactas. Entiende el **contexto** y la **semántica**.
+### Pilares de la Sincronización
+1. **Fechas y Títulos**: Deben ser idénticos en ambos sitios.
+2. **Resumen Profesional**: El del CV debe ser una versión resumida del "Acerca de" de LinkedIn.
+3. **Certificaciones**: Mantén ambos actualizados con tus últimos logros.
 
-### 1. Análisis de Trayectoria
-La IA observa tu progresión de carrera. Puede identificar si tus promociones tienen sentido y si estás ganando responsabilidades con el tiempo. Los huecos en el currículum se analizan basándose en patrones (ej: los períodos de licencia parental o transición de carrera se comprenden mejor hoy).
+[Lee la guía completa de alineación digital](/blog/linkedin-curriculum-alineados)`
+    },
+    {
+        slug: 'adaptar-curriculum-por-vacante',
+        title: 'Cómo Adaptar tu Currículo para Cada Vacante en 10 Minutos',
+        metaTitle: 'Personalización de Currículo | Adaptación para Empleo',
+        metaDescription: 'Aprende la técnica de adaptación rápida para aumentar tus posibilidades de entrevista.',
+        description: 'Deja de enviar currículos genéricos. Aprende la técnica quirúrgica para brillar.',
+        category: 'Estrategia',
+        date: '2024-06-20',
+        lang: 'es',
+        content: `## La Muerte del Currículo "Para Todo"
+        
+En la era de la IA, los currículos genéricos son invisibles. La personalización es clave.
 
-### 2. Extracción de Competencias Implícitas
-Si dices que "Gestionaste un presupuesto de $1 millón", la IA entiende automáticamente que posees habilidades en Gestión Financiera, Planificación y Responsabilidad Fiscal, incluso si esas palabras no están escritas.
+### Pasos para la Adaptación Rápida
+- **Análisis de la Vacante (2 min)**: Identifica los problemas que la empresa quiere resolver.
+- **Palabras Clave (3 min)**: Usa los términos técnicos exactos del anuncio.
+- **Reordenar Logros (3 min)**: Pon lo más relevante para *esta* vacante arriba.
+- **Ajuste de Objetivo (2 min)**: Usa el nombre exacto del puesto.
 
-### 3. Predicción de Rendimiento
-Basándose en datos históricos de profesionales con éxito en la misma vacante, la IA intenta predecir si conectarás bien con la cultura de la empresa. Por eso, mantener tu [LinkedIn y currículum alineados](/blog/linkedin-y-curriculum-alineados) es crucial para proporcionar datos consistentes al sistema.
+**¡La tasa de respuesta con personalización es un 500% mayor!**`
+    },
+    {
+        slug: 'curriculum-simple-o-moderno',
+        title: 'Currículo Simple o Moderno: ¿Cuál Elegir en 2026?',
+        metaTitle: 'Currículo Simple vs Moderno | ¿Cuál es Mejor?',
+        metaDescription: '¿Diseño impactante o minimalismo? Descubre cuál estilo es mejor para tu carrera.',
+        description: 'La eterna duda entre lo básico que funciona y el diseño que impresiona.',
+        category: 'Diseño',
+        date: '2024-06-25',
+        lang: 'es',
+        content: `## La Batalla de los Estilos
+        
+### El Currículo Simple (Minimalista)
+Ideal para sectores conservadores (Derecho, Finanzas). Transmite sobriedad y asegura que ningún software tenga errores de lectura.
 
-## Técnicas para "Enamorar" a la IA
+### El Currículo Moderno (Visual)
+Perfecto para áreas creativas o Startups. Ayuda a destacar habilidades en columnas laterales y refleja una personalidad innovadora.
 
-Para subir en los rankings de puntuación, sigue estas estrategias validadas:
+**Regla de Oro**: No uses barras de porcentaje (80% Inglés). Usa niveles claros (Avanzado).
 
-### Foco en la Legibilidad Estructural
-Incluso siendo inteligente, la IA aún prefiere estructuras organizadas. Usa encabezados claros y viñetas. Evita formatos exóticos de fecha (usa el patrón Mes/Año).
+[Elige tu modelo ideal en nuestro generador](/curriculum)`
+    },
+    {
+        slug: 'vacantes-internacionales-curriculum',
+        title: 'Trabajar para el Extranjero: Prepara tu CV para el Mercado Global',
+        metaTitle: 'Currículo para Vacantes Internacionales | Ganar en Dólares',
+        metaDescription: '¿Quieres ganar en dólares o euros? Aprende las diferencias entre el CV local y el Internacional.',
+        description: 'Guía completa para cruzar fronteras sin salir de casa.',
+        category: 'Carrera',
+        date: '2024-06-28',
+        lang: 'es',
+        content: `## El Sueño de Ganar en Moneda Fuerte
+        
+Un currículo traducido por Google no es suficiente. El mercado internacional tiene sus propias reglas.
 
-### Lenguaje de Acción e Impacto
-Usa verbos fuertes. En lugar de "Fui responsable de...", usa "Desarrollé...", "Lideré...", "Optimicé...". La IA asocia estos verbos a perfiles proactivos y de alto rendimiento.
+### 1. Resume vs. CV
+En EE.UU., usa "Resume" (1 página). "CV" es para fines académicos.
 
-### Optimización de Palabras Clave de Próxima Generación
-No basta con poner la herramienta (ej: Python). Pon la aplicación (ej: Python para la Automatización de Procesos de RRHH). Esto otorga el contexto que busca la IA de 2026. Mira más sobre esto en nuestro artículo sobre [Currículum ATS](/blog/que-es-un-curriculum-ats).
+### 2. Elimina Datos Sensibles
+No pongas foto, fecha de nacimiento o estado civil por leyes antidiscriminación fuera.
 
-## El Paso Final: El Toque Humano
+### 3. Certificaciones Globales
+Logros de AWS, Google o Microsoft tienen el mismo valor en todo el mundo. ¡Destácalos!
 
-Recuerda: la IA te lleva hasta la puerta, pero es un humano quien te hace pasar. Tu currículum debe ser atractivo para ambos. Si es perfecto para el robot pero imposible de leer para una persona, fallarás en la segunda etapa.
+**¿Listo para ser un profesional global?** ¡Usa nuestros modelos internacionales!`
+    },
+    {
+        slug: 'curriculum-en-pdf-o-word',
+        title: 'Currículo en PDF o Word: ¿Cuál es el Mejor Formato?',
+        metaTitle: 'PDF vs Word en el CV | ¿Cuál Enviar en 2026?',
+        metaDescription: 'Descubre qué formato es mejor para que los robots lean tu perfil sin errores.',
+        description: 'La respuesta definitiva para una de las dudas más frecuentes.',
+        category: 'Consejos',
+        date: '2024-07-02',
+        lang: 'es',
+        content: `## El Dilema del Formato
+        
+### Por qué el PDF es el Rey
+Mantiene el formato original, es profesional y las IAs lo leen perfectamente hoy en día.
 
-**Consejo de Oro**: Usa nuestro generador de currículos. ¡Nuestros modelos están probados exhaustivamente contra los principales softwares de IA del mercado para garantizar que siempre tengas la mayor nota de match posible!`
+### El Error Fatal: Imagen
+Nunca envíes tu CV como imagen (.jpg). Los robots de selección (ATS) son "ciegos" a las imágenes.
+
+**Consejo**: Nombra el archivo correctamente: \`CV_Nombre_Puesto.pdf\`.
+
+[Descarga tu CV en PDF optimizado con nuestra herramienta](/curriculum)`
+    },
+    {
+        slug: 'transicion-carrera-consejos',
+        title: 'Transición de Carrera en 2026: Cómo Cambiar de Área con Éxito',
+        metaTitle: 'Cómo Cambiar de Carrera en 2026 | Guía de Transición',
+        metaDescription: '¿Cansado de tu área actual? Mira cómo planificar tu cambio a sectores con futuro.',
+        description: 'Nunca es tarde para empezar de nuevo. Aprende a usar tu experiencia actual.',
+        category: 'Carrera',
+        date: '2024-07-05',
+        lang: 'es',
+        content: `## La Era de la Carrera "Multi-Acto"
+        
+Mudar de área es normal en 2026.
+
+### 1. Mapea Competencias Transferibles
+Tus habilidades de negociación o gestión de proyectos sirven en cualquier sector.
+
+### 2. Micro-learning
+No necesitas otra carrera de 4 años. Busca certificaciones cortas y de alto impacto.
+
+### 3. El Currículo Híbrido
+Usa modelos que resalten tus habilidades arriba y dejen el historial cronológico para después.
+
+**Tu nueva carrera comienza hoy.** ¡Prepara el currículo que abrirá esas nuevas puertas!`
+    },
+    {
+        slug: 'herramientas-ia-productividad',
+        title: '10 Herramientas de IA para Potenciar tu Productividade',
+        metaTitle: 'Herramientas IA Productividad 2026 | Consejos de Carrera',
+        metaDescription: 'Trabaja de forma inteligente. Conoce las 10 mejores IAs para automatizar tareas.',
+        description: 'Guía definitiva para transformar la IA en tu mejor aliada.',
+        category: 'Tecnología',
+        date: '2024-07-08',
+        lang: 'es',
+        content: `## El Profesional "Centauro": Humano + Máquina
+        
+La productividad ya no es cuántas horas trabajas, sino qué herramientas usas.
+
+### Herramientas Imprescindibles
+- **Agentes de Reunión**: Transcriben y crean listas de tareas solos.
+- **Copilotos de Escritura**: Sugieren párrafos basados en tu estilo.
+- **Automatización No-code**: Conecta procesos mediante voz.
+
+**¿Quieres ser productivo hasta buscando empleo?** ¡Usa nuestro gerador y crea tu CV en 5 minutos!`
+    },
+    {
+        slug: 'mentalidad-crecimiento-carrera',
+        title: 'Growth Mindset: La Actitud que Define el Éxito en 2026',
+        metaTitle: 'Growth Mindset en la Carrera | Mentalidad de Éxito',
+        metaDescription: '¿Qué diferencia a los profesionales que crecen de los que se estancan?',
+        description: 'Por qué tu forma de ver los fallos predice tu éxito futuro.',
+        category: 'Comportamiento',
+        date: '2024-07-12',
+        lang: 'es',
+        content: `## La Filosofía de Silicon Valley
+        
+Tus habilidades no son fijas. Todo se puede aprender con esfuerzo y estrategia.
+
+### Pilares de la Mentalidad de Crecimiento
+- **Desafíos = Oportunidades**: No huyas de lo difícil, úsalo para entrenar.
+- **Fracaso = Datos**: Pregunta "¿Qué me dice este resultado sobre mi proceso?".
+- **Éxito ajeno = Inspiración**: Aprende de los que ya llegaron donde tú quieres estar.
+
+**¡Usa el poder del "Todavía"!** No digas "no sé IA", di "no sé IA... todavía".`
+    },
+    {
+        slug: 'networking-linkedin-abordaje',
+        title: 'Networking en LinkedIn: Cómo Contactar Reclutadores sin ser Molesto',
+        metaTitle: 'Networking LinkedIn 2026 | Abordaje de Reclutadores',
+        metaDescription: 'Aprende scripts de mensajes que sí funcionan en LinkedIn.',
+        description: 'El arte de crear conexiones reales en un mundo de mensajes automáticos.',
+        category: 'Estratégia',
+        date: '2024-07-15',
+        lang: 'es',
+        content: `## El Miedo al Mensaje Directo
+        
+El networking es responsable del 60% de las contrataciones de calidad.
+
+### Reglas de Oro
+- **No vendas de entrada**: Inicia una charla, no pidas trabajo enseguida.
+- **Contexto + Elogio + Pregunta**: Script ideal para romper el hielo.
+- **Sé Breve**: Respeta el tiempo del reclutador.
+
+**¿Necesitas un CV que impresione al enviarlo?** ¡Créalo con nosotros!`
+    },
+    {
+        slug: 'trabajo-remoto-guia-herramientas',
+        title: 'Trabajo Remoto en 2026: Guía de Etiqueta y Herramientas',
+        metaTitle: 'Guía Trabajo Remoto 2026 | Consejos de Carrera',
+        metaDescription: 'Domina el arte de trabajar desde casa con productividad y salud mental.',
+        description: 'Trabajar en pijama es solo el comienzo. Sé un profesional de élite.',
+        category: 'Carrera',
+        date: '2024-07-18',
+        lang: 'es',
+        content: `## El Fin de la Oficina Tradicional
+        
+### Claves del Éxito Remoto
+- **Comunicación Asíncrona**: No esperes respuestas inmediatas; escribe briefings claros.
+- **Deep Work**: Bloquea horas de foco total sin distracciones.
+- **Visibilidad Activa**: Comunica tus logros semanalmente a tu jefe.
+
+**Demuestra autonomía en tu CV.** Resalta cómo gestionas proyectos sin supervisión directa.`
+    },
+    {
+        slug: 'prevencion-burnout-carrera',
+        title: 'Carrera Acelerada sin Burnout: Estrategias de Salud Mental',
+        metaTitle: 'Prevención de Burnout 2026 | Salud en el Trabajo',
+        metaDescription: 'El éxito no tiene por qué costar tu salud. Aprende a rendir de forma sostenible.',
+        description: 'El alto rendimiento es una maratón, no un sprint.',
+        category: 'Comportamiento',
+        date: '2024-07-22',
+        lang: 'es',
+        content: `## La Epidemia del Agotamiento
+        
+### Estrategias de Rendimiento Sostenible
+- **Desconexión Radical**: Apaga notificaciones después de las 19h.
+- **Foco 80/20**: Prioriza las tareas que generan el 80% de tus resultados.
+- **Recuperación Activa**: Hobbies sin pantallas para limpiar el cerebro.
+
+**Tu salud es tu mayor activo.** Si el ambiente es tóxico, prepara tu salida con estrategia.`
+    },
+    {
+        slug: 'sesgo-algoritmo-curriculum',
+        title: 'Sesgo de Algoritmo: Qué hacer si el Robot "Rechaza" tu Perfil',
+        metaTitle: 'Sesgo de Algoritmo en Reclutamiento | Protégete',
+        metaDescription: 'Descubre cómo los sesgos de la IA pueden afectarte y cómo navegar por ellos.',
+        description: 'La tecnología no es neutra. Aprende a superar los prejuicios digitales.',
+        category: 'Tecnología',
+        date: '2024-07-25',
+        lang: 'es',
+        content: `## ¿La Máquina es Prejuiciosa?
+        
+Los algoritmos pueden heredar sesgos históricos.
+
+### Cómo Neutralizarlos
+- **Estandariza Términos**: Usa el lenguaje técnico oficial del mercado.
+- **Foco en Skills**: Las certificaciones técnicas pesan mucho para los robots.
+- **Espejo**: Usa las palabras exactas del anuncio de empleo.
+
+**Haz que tu perfil sea irrefutable para la máquina e irresistible para el humano.**`
+    },
+    {
+        slug: 'guia-salarios-beneficios-2026',
+        title: 'Guía de Salarios y Beneficios 2026: ¿Qué Pedir?',
+        metaTitle: 'Salarios y Beneficios 2026 | Negociación de Contrato',
+        metaDescription: 'No aceptes menos de lo que vales. Conoce los nuevos estándares del mercado.',
+        description: 'Negociar es un arte. Conoce qué se valora hoy.',
+        category: 'Estratégia',
+        date: '2024-07-28',
+        lang: 'es',
+        content: `## El Poder de Negociación en 2026
+        
+### El Nuevo Estándar
+- **Presupuesto para Home Office**: Dinero para hardware y ergonomía.
+- **Educación Continua**: Reembolso de cursos y certificados.
+- **Salud Mental**: Apps de terapia incluidas.
+
+**Consejo**: No hables de tus deudas, habla de tu ROI (Retorno de Inversión) para la empresa.`
+    },
+    {
+        slug: 'espanol-profesional-consejos',
+        title: 'Español Profesional: Cómo Escribir Emails e Informes Impecables',
+        metaTitle: 'Español Profesional 2026 | Consejos de Escritura',
+        metaDescription: 'Tu escritura es tu imagen. Aprende a transmitir autoridad y confianza.',
+        description: 'Pequeños ajustes que duplican tu credibilidad profesional.',
+        category: 'Consejos',
+        date: '2024-08-01',
+        lang: 'es',
+        content: `## Tu Escritura es tu Carta de Presentación
+        
+### Consejos Rápidos
+- **Asuntos Claros**: Evita "Hola", sé específico: "[Aprobación] Presupuesto Proyecto X".
+- **Evita el Gerundismo**: No digas "Estaré enviando", di "Enviaré". Es más directo.
+- **Revisión**: Una IA ayuda, mas no entiende el tono. ¡Relee siempre!
+
+**¡Usa nuestro gerador para frases optimizadas por expertos en tu CV!**`
+    },
+    {
+        slug: 'profesiones-futuro-2030',
+        title: 'Profesiones del Futuro: ¿Qué Estaremos Haciendo en 2030?',
+        metaTitle: 'Profesiones Futuro 2030 | Tendencias de Carrera',
+        metaDescription: '¿Qué cargos aparecerán? Prepárate hoy para las carreras del mañana.',
+        description: 'Un viaje a las próximas fronteras del trabajo humano.',
+        category: 'Tendencias',
+        date: '2024-08-05',
+        lang: 'es',
+        content: `## La Velocidad del Cambio
+        
+### Empleos a Seguir
+- **Curador de Ética Algorítmica**: Auditor humano para IAs justas.
+- **Diseñador de XR**: Arquitecto de mundos virtuales en gafas inteligentes.
+- **Gestor de Herencia Digital**: Encargado de tus activos tras la muerte.
+
+**El futuro se crea hoy.** ¡Mantente a la vanguardia con las mejores herramientas!`
+    },
+    {
+        slug: 'carrera-esg-sostenibilidad-2026',
+        title: 'Carreras Verdes: Especialízate en ESG y Sostenibilidad',
+        metaTitle: 'Carreras ESG 2026 | Trabajar en Sostenibilidad',
+        metaDescription: 'El mercado laboral se vuelve verde. Descubre las nuevas profesiones ESG.',
+        description: 'La sostenibilidad ya no es un sector, es una competencia exigida a todos.',
+        category: 'Tendencias',
+        date: '2024-08-10',
+        lang: 'es',
+        content: `## Capitalismo de Stakeholders
+        
+El ESG mueve las inversiones y contrataciones en 2026.
+
+### ¿Qué es "Trabajar en ESG"?
+No solo para biólogos; necesitamos contadores de carbono, abogados climáticos y gestores de diversidad.
+
+**¡Adapta tu CV para resaltar tu compromiso con la sostenibilidad!**`
+    },
+    {
+        slug: 'guia-gig-economy-freelancer-2026',
+        title: 'Guía de la Gig Economy: Cómo Vivir de Proyectos en 2026',
+        metaTitle: 'Vivir como Freelancer 2026 | Guía Gig Economy',
+        metaDescription: 'El empleo fijo no es la única opción. Aprende a gestionar tu carrera independiente.',
+        description: 'La libertad de ser tu propio jefe exige responsabilidad financiera.',
+        category: 'Estratégia',
+        date: '2024-08-15',
+        lang: 'es',
+        content: `## El Profesional Independiente de Élite
+        
+El trabajo por proyectos es una elección estratégica para expertos sénior.
+
+### Ser "Yo S.A."
+Necesitas una marca personal fuerte, un flujo de ventas y una gestión financiera rigurosa.
+
+**¿Listo para la Gig Economy?** ¡Usa nuestros modelos modernos para mostrar tu portafolio!`
     }
 ];

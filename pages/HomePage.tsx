@@ -7,7 +7,7 @@ import { updateSEO } from '../lib/seo';
 import { useTranslation } from 'react-i18next';
 
 export const HomePage: React.FC = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   useEffect(() => {
     updateSEO(t('home.badge'), t('home.description'));
