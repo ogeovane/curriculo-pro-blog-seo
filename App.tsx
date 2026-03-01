@@ -12,7 +12,15 @@ import { TemplatesPage } from './pages/TemplatesPage';
 import { FAQPage } from './pages/FAQPage';
 import { ContactPage } from './pages/ContactPage';
 
+import { useTranslation } from 'react-i18next';
+
 const App: React.FC = () => {
+  const { t, i18n } = useTranslation();
+
+  React.useEffect(() => {
+    document.documentElement.lang = i18n.language;
+  }, [i18n.language]);
+
   return (
     <Router>
       <div className="flex flex-col min-h-screen">
@@ -26,10 +34,10 @@ const App: React.FC = () => {
             <Route path="/contato" element={<ContactPage />} />
             <Route path="/blog" element={<BlogList />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
-            <Route path="/privacidade" element={<LegalPage title="Política de Privacidade" />} />
-            <Route path="/termos" element={<LegalPage title="Termos de Uso" />} />
-            <Route path="/cookies" element={<LegalPage title="Política de Cookies" />} />
-            <Route path="/sobre" element={<div className="max-w-4xl mx-auto px-4 py-20 text-center"><h1 className="text-4xl font-bold mb-4">Sobre Nós</h1><p className="text-gray-500 text-lg">Somos uma iniciativa dedicada a democratizar o acesso a ferramentas profissionais de carreira e recrutamento, ajudando brasileiros a conquistarem seu próximo passo profissional.</p></div>} />
+            <Route path="/privacidade" element={<LegalPage title={t('footer.privacy')} />} />
+            <Route path="/termos" element={<LegalPage title={t('footer.terms')} />} />
+            <Route path="/cookies" element={<LegalPage title={t('footer.cookies')} />} />
+            <Route path="/sobre" element={<div className="max-w-4xl mx-auto px-4 py-20 text-center"><h1 className="text-4xl font-bold mb-4">{t('about_page.title')}</h1><p className="text-gray-500 text-lg">{t('about_page.description')}</p></div>} />
           </Routes>
         </main>
         <Footer />

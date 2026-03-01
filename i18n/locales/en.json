@@ -1,0 +1,200 @@
+{
+    "header": {
+        "home": "Home",
+        "builder": "Generator",
+        "blog": "Career Blog",
+        "about": "About",
+        "generate": "Generate Now",
+        "brand_name": "Resume",
+        "brand_number": "1"
+    },
+    "footer": {
+        "description": "Create professional and modern resumes in minutes. Totally free and optimized for recruitment systems.",
+        "platform": "Platform",
+        "builder": "Resume Generator",
+        "templates": "ATS Templates",
+        "blog": "Professional Blog",
+        "faq": "FAQ",
+        "contact": "Contact",
+        "legal": "Legal",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Use",
+        "cookies": "Cookie Policy",
+        "sitemap": "Sitemap",
+        "social": "Social Media",
+        "rights": "© {{year}} Curriculum 1. All rights reserved.",
+        "tagline": "Developed for your next achievement."
+    },
+    "home": {
+        "badge": "Optimized for the 2026 Market",
+        "title1": "Create a Professional Resume",
+        "title2": "in less than 5 minutes.",
+        "description": "Our templates are tested in applicant tracking systems (ATS) to ensure your resume is read and approved. Free and with no strings attached.",
+        "cta_start": "Get Started Now",
+        "cta_blog": "Career Tips",
+        "feature1_title": "Fast and Practical",
+        "feature1_desc": "Fill in your details and see the result in real time. Edit every detail.",
+        "feature2_title": "ATS-Friendly",
+        "feature2_desc": "Optimized structures to pass through the selection robots of large companies.",
+        "feature3_title": "Professional PDF",
+        "feature3_desc": "Export in a clean, light and universally accepted format.",
+        "section_title": "Why is a good resume still the #1 factor for hiring?",
+        "section_desc": "Even with the advance of LinkedIn, the PDF resume remains the official document of analysis in selection processes. A confusing layout or lack of keywords can eliminate you before someone even reads your name.",
+        "section_link": "Read our complete guide"
+    },
+    "builder": {
+        "edit": "Edit",
+        "preview": "Preview",
+        "template": "Template",
+        "download": "Download PDF",
+        "form_title": "Fill in your details",
+        "preview_title": "Preview",
+        "tip": "Tip: Select \"Save as PDF\" in the print options to export.",
+        "form": {
+            "personal_info": "Personal Information",
+            "full_name": "Full Name",
+            "desired_role": "Desired Role",
+            "email": "Email",
+            "phone": "Phone",
+            "summary": "Professional Summary",
+            "summary_placeholder": "Tell us a bit about your career path...",
+            "experience": "Professional Experience",
+            "company": "Company",
+            "role": "Role",
+            "period": "Period (Ex: Jan 2020 - Present)",
+            "description": "Description of activities (use bullet points)",
+            "education": "Academic Background",
+            "institution": "Institution",
+            "degree": "Degree/Course",
+            "year": "Year",
+            "skills": "Skills",
+            "skills_placeholder": "Enter skills separated by commas",
+            "languages": "Languages",
+            "languages_placeholder": "Ex: English (Native), Spanish (Fluent)"
+        },
+        "initial_data": {
+            "name": "Your Full Name",
+            "role": "Desired Role",
+            "summary": "Impactful professional summary highlighting your key achievements and career goals.",
+            "exp_company": "Company Name",
+            "exp_role": "Your Role",
+            "exp_period": "Jan 2020 - Present",
+            "exp_desc": "• Responsible for X\n• Achieved Y with Z% increase",
+            "edu_inst": "Example University",
+            "edu_degree": "Bachelor of Administration",
+            "skills": [
+                "Communication",
+                "Time Management",
+                "Office Suite"
+            ],
+            "languages": [
+                "English (Native)",
+                "Spanish (Intermediate)"
+            ]
+        }
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Everything you need to know about Curriculum 1.",
+        "items": [
+            {
+                "q": "What is an ATS resume?",
+                "a": "ATS (Applicant Tracking System) are systems that companies use to filter resumes automatically. Our templates are designed so these systems can read your information without errors."
+            },
+            {
+                "q": "Is the service really free?",
+                "a": "Yes! You can create, edit and download your resume in PDF as many times as you want, without any hidden costs or subscriptions."
+            },
+            {
+                "q": "Are my data saved?",
+                "a": "For your privacy, we do not store your personal data on our servers. The information you enter is temporarily saved in your browser while you edit."
+            },
+            {
+                "q": "How do I download the resume in PDF?",
+                "a": "After filling in your details, click on 'Download PDF'. On the print screen that opens, select the 'Save as PDF' option in your printer's destination."
+            },
+            {
+                "q": "How many experiences should I include?",
+                "a": "We recommend focusing on the last 3 or the most relevant ones for the vacancy you are seeking. Ideally, keep the resume to a maximum of 2 pages."
+            }
+        ]
+    },
+    "contact": {
+        "title": "How can we help?",
+        "subtitle": "Have a question about the generator? Found an error or have a template suggestion? Our team is ready to hear from you.",
+        "support_email": "Support Email",
+        "sent_title": "Message Sent!",
+        "sent_desc": "Thank you for contacting us. We will reply within 24 business hours to the email provided.",
+        "send_another": "Send another message",
+        "form_name": "Your Name",
+        "form_email": "Reply email",
+        "form_message": "Message",
+        "form_message_placeholder": "How can we help you today?",
+        "sending": "Sending...",
+        "send_button": "Send Message"
+    },
+    "blog": {
+        "title": "Career and Job Market Blog",
+        "header_title": "Content to boost your career",
+        "header_subtitle": "Articles written by recruitment experts to help you land your next job.",
+        "read_article": "Read Article",
+        "back_to_blog": "Back to Blog",
+        "author": "Curriculum 1 Team",
+        "share": "Share",
+        "trending": "Trending Posts",
+        "cta_title": "Get your job now!",
+        "cta_desc": "It's no use having the knowledge if you don't put it into practice. Use our free generator and create your new resume today.",
+        "cta_button": "Start Free Resume"
+    },
+    "templates": {
+        "title": "Choose your Professional Template",
+        "subtitle": "All our models have been validated by HR experts and are compatible with digital screening systems.",
+        "use_template": "Use this template",
+        "items": {
+            "minimal": {
+                "name": "Minimal Clean (ATS)",
+                "desc": "Recruiters' favorite. Design focused on total readability for automatic systems.",
+                "features": [
+                    "Focus on content",
+                    "100% ATS Optimized",
+                    "Ideal for corporate areas"
+                ]
+            },
+            "modern": {
+                "name": "Modern Split",
+                "desc": "Two-column layout that highlights skills and contact information creatively.",
+                "features": [
+                    "Modern Design",
+                    "Visual highlight",
+                    "Great for Tech and Marketing"
+                ]
+            },
+            "classic": {
+                "name": "Classic Formal",
+                "desc": "Traditional and elegant style, perfect for executive roles and academic areas.",
+                "features": [
+                    "Sober elegance",
+                    "Timeless layout",
+                    "Ideal for senior roles"
+                ]
+            }
+        }
+    },
+    "legal": {
+        "description": "We at Curriculum 1 value your privacy and transparency. This page contains important information about how we operate our platform and process your data (or don't, since we don't store resume data on our servers permanently).",
+        "section1_title": "1. Information Collection",
+        "section1_desc": "The data entered in the resume generator remains only in your browser during editing. We do not collect names, IDs or professional histories in our centralized database for direct marketing purposes.",
+        "section2_title": "2. Cookies and Google AdSense",
+        "section2_desc": "We use cookies to improve your experience and for advertising purposes via Google AdSense. Google uses cookies to serve ads based on your previous visits to our site or other sites on the Internet.",
+        "section2_desc2": "You can opt out of personalized advertising by visiting Google's Ad Settings.",
+        "section3_title": "3. GDPR and Compliance",
+        "section3_desc": "We follow the guidelines of the General Data Protection Regulation (GDPR) and local laws. As a free tool, our goal is candidate empowerment, not the commercialization of sensitive data.",
+        "section4_title": "4. Limitation of Liability",
+        "section4_desc": "Curriculum 1 is an aid tool. We do not guarantee hires or interviews, as this depends exclusively on the quality of the information entered by the user and the interest of the recruiters.",
+        "last_update": "Last update: June 2024."
+    },
+    "about_page": {
+        "title": "About Us",
+        "description": "We are an initiative dedicated to democratizing access to professional career and recruitment tools, helping people achieve their next professional step."
+    }
+}

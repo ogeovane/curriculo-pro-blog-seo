@@ -5,8 +5,10 @@ import { BLOG_POSTS } from '../constants.tsx';
 import { updateSEO } from '../lib/seo';
 import { Adsense } from '../components/Adsense';
 import { ArrowLeft, Share2, Calendar, User, Bookmark } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 export const BlogPost: React.FC = () => {
+  const { t } = useTranslation();
   const { slug } = useParams();
   const post = BLOG_POSTS.find(p => p.slug === slug);
 
@@ -85,7 +87,7 @@ export const BlogPost: React.FC = () => {
     <div className="bg-white min-h-screen">
       <div className="max-w-4xl mx-auto px-4 py-12">
         <Link to="/blog" className="inline-flex items-center text-sm font-bold text-blue-600 mb-8 hover:translate-x-[-4px] transition group">
-          <ArrowLeft size={16} className="mr-2 group-hover:mr-3 transition-all" /> Voltar para o Blog
+          <ArrowLeft size={16} className="mr-2 group-hover:mr-3 transition-all" /> {t('blog.back_to_blog')}
         </Link>
 
         <header className="mb-12">
@@ -97,7 +99,7 @@ export const BlogPost: React.FC = () => {
               <Calendar size={12} className="mr-1.5" /> {post.date}
             </span>
             <span className="text-gray-400 flex items-center">
-              <User size={12} className="mr-1.5" /> Redação Currículo 1
+              <User size={12} className="mr-1.5" /> {t('blog.author')}
             </span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-gray-900 tracking-tighter leading-[1.1] mb-8">
@@ -124,10 +126,10 @@ export const BlogPost: React.FC = () => {
               <div className="absolute top-0 right-0 p-8 opacity-10 pointer-events-none">
                 <Share2 size={120} />
               </div>
-              <h3 className="text-3xl md:text-4xl font-black mb-6 relative z-10">Conquiste sua vaga agora!</h3>
-              <p className="mb-10 text-blue-50 text-xl max-w-xl mx-auto relative z-10 opacity-90">Não adianta ter o conhecimento se você não o coloca em prática. Use nosso gerador gratuito e crie seu novo currículo hoje.</p>
+              <h3 className="text-3xl md:text-4xl font-black mb-6 relative z-10">{t('blog.cta_title')}</h3>
+              <p className="mb-10 text-blue-50 text-xl max-w-xl mx-auto relative z-10 opacity-90">{t('blog.cta_desc')}</p>
               <Link to="/curriculo" className="inline-flex items-center bg-white text-blue-700 px-10 py-4 rounded-2xl font-black text-lg hover:bg-blue-50 transition shadow-lg relative z-10">
-                Começar Currículo Grátis
+                {t('blog.cta_button')}
               </Link>
             </div>
           </div>
@@ -136,7 +138,7 @@ export const BlogPost: React.FC = () => {
             <div className="sticky top-28 space-y-10">
               <div className="bg-white p-8 rounded-[2rem] border-2 border-gray-50 shadow-sm">
                 <h4 className="font-black text-gray-900 mb-6 flex items-center text-lg uppercase tracking-tight">
-                  <Share2 size={20} className="mr-3 text-blue-600" /> Compartilhar
+                  <Share2 size={20} className="mr-3 text-blue-600" /> {t('blog.share')}
                 </h4>
                 <div className="grid grid-cols-3 gap-3">
                   <button className="h-12 bg-blue-50 text-blue-600 flex items-center justify-center rounded-xl hover:bg-blue-600 hover:text-white transition font-bold">FB</button>
@@ -146,7 +148,7 @@ export const BlogPost: React.FC = () => {
               </div>
 
               <div className="bg-gray-900 p-8 rounded-[2.5rem] text-white">
-                <h4 className="font-black mb-6 text-xl tracking-tight">Posts em Alta</h4>
+                <h4 className="font-black mb-6 text-xl tracking-tight">{t('blog.trending')}</h4>
                 <ul className="space-y-6">
                   {BLOG_POSTS.filter(p => p.slug !== slug).slice(0, 3).map(p => (
                     <li key={p.slug} className="group">

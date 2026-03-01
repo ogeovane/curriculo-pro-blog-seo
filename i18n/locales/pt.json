@@ -1,0 +1,200 @@
+{
+    "header": {
+        "home": "Início",
+        "builder": "Gerador",
+        "blog": "Blog de Carreira",
+        "about": "Sobre",
+        "generate": "Gerar Agora",
+        "brand_name": "Currículo",
+        "brand_number": "1"
+    },
+    "footer": {
+        "description": "Crie currículos profissionais e modernos em minutos. Totalmente gratuito e otimizado para sistemas de recrutamento.",
+        "platform": "Plataforma",
+        "builder": "Gerador de Currículo",
+        "templates": "Templates ATS",
+        "blog": "Blog Profissional",
+        "faq": "Perguntas Frequentes",
+        "contact": "Contato",
+        "legal": "Legal",
+        "privacy": "Política de Privacidade",
+        "terms": "Termos de Uso",
+        "cookies": "Política de Cookies",
+        "sitemap": "Sitemap",
+        "social": "Redes Sociais",
+        "rights": "© {{year}} Currículo 1. Todos os direitos reservados.",
+        "tagline": "Desenvolvido para sua próxima conquista."
+    },
+    "home": {
+        "badge": "Otimizado para o Mercado 2026",
+        "title1": "Crie um Currículo Profissional",
+        "title2": "em menos de 5 minutos.",
+        "description": "Nossos templates são testados em sistemas de recrutamento (ATS) para garantir que seu currículo seja lido e aprovado. Gratuito e sem pegadinhas.",
+        "cta_start": "Começar Agora",
+        "cta_blog": "Dicas de Carreira",
+        "feature1_title": "Rápido e Prático",
+        "feature1_desc": "Preencha seus dados e veja o resultado em tempo real. Edite cada detalhe.",
+        "feature2_title": "ATS-Friendly",
+        "feature2_desc": "Estruturas otimizadas para passar pelos robôs de seleção das grandes empresas.",
+        "feature3_title": "PDF Profissional",
+        "feature3_desc": "Exporte em um formato limpo, leve e universalmente aceito.",
+        "section_title": "Por que um bom currículo ainda é o fator #1 para contratação?",
+        "section_desc": "Mesmo com o avanço do LinkedIn, o arquivo PDF do currículo continua sendo o documento oficial de análise nos processos seletivos. Um layout confuso ou falta de palavras-chave pode te eliminar antes mesmo de alguém ler seu nome.",
+        "section_link": "Leia nosso guia completo"
+    },
+    "builder": {
+        "edit": "Editar",
+        "preview": "Visualizar",
+        "template": "Template",
+        "download": "Baixar PDF",
+        "form_title": "Preencha seus dados",
+        "preview_title": "Pré-visualização",
+        "tip": "Dica: Selecione \"Salvar como PDF\" nas opções de impressão para exportar.",
+        "form": {
+            "personal_info": "Dados Pessoais",
+            "full_name": "Nome Completo",
+            "desired_role": "Cargo Desejado",
+            "email": "E-mail",
+            "phone": "Telefone",
+            "summary": "Resumo Profissional",
+            "summary_placeholder": "Conte um pouco sobre sua trajetória...",
+            "experience": "Experiência Profissional",
+            "company": "Empresa",
+            "role": "Cargo",
+            "period": "Período (Ex: Jan 2020 - Atual)",
+            "description": "Descrição das atividades (use bullet points)",
+            "education": "Formação Acadêmica",
+            "institution": "Instituição",
+            "degree": "Grau/Curso",
+            "year": "Ano",
+            "skills": "Habilidades",
+            "skills_placeholder": "Digite habilidades separadas por vírgula",
+            "languages": "Idiomas",
+            "languages_placeholder": "Ex: Português (Nativo), Inglês (Fluente)"
+        },
+        "initial_data": {
+            "name": "Seu Nome Completo",
+            "role": "Cargo Desejado",
+            "summary": "Resumo profissional impactante destacando suas principais conquistas e objetivos de carreira.",
+            "exp_company": "Nome da Empresa",
+            "exp_role": "Seu Cargo",
+            "exp_period": "Jan 2020 - Presente",
+            "exp_desc": "• Responsável por X\n• Conquista Y com aumento de Z%",
+            "edu_inst": "Universidade Exemplo",
+            "edu_degree": "Bacharelado em Administração",
+            "skills": [
+                "Comunicação",
+                "Gestão de Tempo",
+                "Pacote Office"
+            ],
+            "languages": [
+                "Português (Nativo)",
+                "Inglês (Intermediário)"
+            ]
+        }
+    },
+    "faq": {
+        "title": "Perguntas Frequentes",
+        "subtitle": "Tudo o que você precisa saber sobre o Currículo 1.",
+        "items": [
+            {
+                "q": "O que é um currículo ATS?",
+                "a": "ATS (Applicant Tracking System) são sistemas que as empresas usam para filtrar currículos automaticamente. Nossos templates são desenhados para que esses sistemas consigam ler suas informações sem erros."
+            },
+            {
+                "q": "O serviço é realmente gratuito?",
+                "a": "Sim! Você pode criar, editar e baixar seu currículo em PDF quantas vezes quiser, sem custos ou assinaturas escondidas."
+            },
+            {
+                "q": "Meus dados ficam salvos?",
+                "a": "Para sua privacidade, não armazenamos seus dados pessoais em nossos servidores. As informações que você digita ficam salvas temporariamente no seu navegador enquanto você edita."
+            },
+            {
+                "q": "Como baixo o currículo em PDF?",
+                "a": "Após preencher seus dados, clique em 'Baixar PDF'. Na tela de impressão que abrir, selecione a opção 'Salvar como PDF' no destino da sua impressora."
+            },
+            {
+                "q": "Quantas experiências devo colocar?",
+                "a": "Recomendamos focar nas últimas 3 ou nas mais relevantes para a vaga que você está buscando. O ideal é manter o currículo em no máximo 2 páginas."
+            }
+        ]
+    },
+    "contact": {
+        "title": "Como podemos ajudar?",
+        "subtitle": "Tem alguma dúvida sobre o gerador? Encontrou um erro ou tem uma sugestão de template? Nossa equipe está pronta para ouvir você.",
+        "support_email": "E-mail de Suporte",
+        "sent_title": "Mensagem Enviada!",
+        "sent_desc": "Obrigado pelo contato. Responderemos em até 24 horas úteis no e-mail informado.",
+        "send_another": "Enviar outra mensagem",
+        "form_name": "Seu Nome",
+        "form_email": "E-mail para resposta",
+        "form_message": "Mensagem",
+        "form_message_placeholder": "Como podemos te ajudar hoje?",
+        "sending": "Enviando...",
+        "send_button": "Enviar Mensagem"
+    },
+    "blog": {
+        "title": "Blog de Carreira e Mercado de Trabalho",
+        "header_title": "Conteúdo para impulsionar sua carreira",
+        "header_subtitle": "Artigos escritos por especialistas em recrutamento para ajudar você a conquistar sua próxima vaga.",
+        "read_article": "Ler Artigo",
+        "back_to_blog": "Voltar para o Blog",
+        "author": "Redação Currículo 1",
+        "share": "Compartilhar",
+        "trending": "Posts em Alta",
+        "cta_title": "Conquiste sua vaga agora!",
+        "cta_desc": "Não adianta ter o conhecimento se você não o coloca em prática. Use nosso gerador gratuito e crie seu novo currículo hoje.",
+        "cta_button": "Começar Currículo Grátis"
+    },
+    "templates": {
+        "title": "Escolha seu Template Profissional",
+        "subtitle": "Todos os nossos modelos foram validados por especialistas em RH e são compatíveis com sistemas de triagem digital.",
+        "use_template": "Usar este modelo",
+        "items": {
+            "minimal": {
+                "name": "Minimal Clean (ATS)",
+                "desc": "O favorito dos recrutadores. Design focado em legibilidade total para sistemas automáticos.",
+                "features": [
+                    "Foco em conteúdo",
+                    "100% Otimizado para ATS",
+                    "Ideal para áreas corporativas"
+                ]
+            },
+            "modern": {
+                "name": "Modern Split",
+                "desc": "Layout de duas colunas que destaca habilidades e informações de contato de forma criativa.",
+                "features": [
+                    "Design Moderno",
+                    "Destaque visual",
+                    "Ótimo para Tech e Marketing"
+                ]
+            },
+            "classic": {
+                "name": "Classic Formal",
+                "desc": "Estilo tradicional e elegante, perfeito para cargos executivos e áreas acadêmicas.",
+                "features": [
+                    "Elegância sóbria",
+                    "Layout atemporal",
+                    "Ideal para cargos seniores"
+                ]
+            }
+        }
+    },
+    "legal": {
+        "description": "Nós do Currículo 1 valorizamos sua privacidade e transparência. Esta página contém informações importantes sobre como operamos nossa plataforma e processamos seus dados (ou não, já que não armazenamos dados de currículo em nossos servidores de forma permanente).",
+        "section1_title": "1. Coleta de Informações",
+        "section1_desc": "Os dados inseridos no gerador de currículo permanecem apenas no seu navegador durante a edição. Não coletamos nomes, CPFs ou históricos profissionais em nosso banco de dados centralizado para fins de marketing direto.",
+        "section2_title": "2. Cookies e Google AdSense",
+        "section2_desc": "Utilizamos cookies para melhorar sua experiência e para fins de publicidade via Google AdSense. O Google utiliza cookies para veicular anúncios com base em suas visitas anteriores ao nosso site ou a outros sites na Internet.",
+        "section2_desc2": "Você pode desativar a publicidade personalizada visitando as Configurações de anúncios do Google.",
+        "section3_title": "3. LGPD e Compliance",
+        "section3_desc": "Seguimos as diretrizes da Lei Geral de Proteção de Dados (LGPD) no Brasil. Como ferramenta gratuita, nosso objetivo é o empoderamento do candidato, não a comercialização de dados sensíveis.",
+        "section4_title": "4. Limitação de Responsabilidade",
+        "section4_desc": "O Currículo 1 é uma ferramenta de auxílio. Não garantimos contratações ou entrevistas, visto que isso depende exclusivamente da qualidade das informações inseridas pelo usuário e do interesse dos recrutadores.",
+        "last_update": "Última atualização: Junho de 2024."
+    },
+    "about_page": {
+        "title": "Sobre Nós",
+        "description": "Somos uma iniciativa dedicada a democratizar o acesso a ferramentas profissionais de carreira e recrutamento, ajudando brasileiros a conquistarem seu próximo passo profissional."
+    }
+}

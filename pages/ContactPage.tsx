@@ -2,15 +2,17 @@
 import React, { useState, useEffect } from 'react';
 import { updateSEO } from '../lib/seo';
 import { Mail, Send, CheckCircle, MessageSquare } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 export const ContactPage: React.FC = () => {
+  const { t } = useTranslation();
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    updateSEO("Contato - Currículo 1", "Entre em contato conosco para suporte, sugestões ou parcerias.");
+    updateSEO(t('contact.title'), t('contact.subtitle'));
     window.scrollTo(0, 0);
-  }, []);
+  }, [t]);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -30,10 +32,10 @@ export const ContactPage: React.FC = () => {
             <MessageSquare className="text-blue-600" size={32} />
           </div>
           <h1 className="text-4xl md:text-5xl font-black text-gray-900 mb-6 tracking-tight">
-            Como podemos <span className="text-blue-600">ajudar?</span>
+            {t('contact.title').split('?')[0]} <span className="text-blue-600">{t('contact.title').includes('?') ? 'ajudar?' : ''}</span>
           </h1>
           <p className="text-xl text-gray-500 mb-10 leading-relaxed">
-            Tem alguma dúvida sobre o gerador? Encontrou um erro ou tem uma sugestão de template? Nossa equipe está pronta para ouvir você.
+            {t('contact.subtitle')}
           </p>
 
           <div className="space-y-6">
@@ -42,7 +44,7 @@ export const ContactPage: React.FC = () => {
                 <Mail className="text-gray-600" size={24} />
               </div>
               <div>
-                <p className="text-sm font-bold text-gray-400 uppercase tracking-widest">E-mail de Suporte</p>
+                <p className="text-sm font-bold text-gray-400 uppercase tracking-widest">{t('contact.support_email')}</p>
                 <p className="text-lg font-bold text-gray-900">suporte@curriculopro.com.br</p>
               </div>
             </div>
@@ -55,19 +57,19 @@ export const ContactPage: React.FC = () => {
               <div className="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <CheckCircle className="text-green-600" size={40} />
               </div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">Mensagem Enviada!</h2>
-              <p className="text-gray-500 mb-8">Obrigado pelo contato. Responderemos em até 24 horas úteis no e-mail informado.</p>
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">{t('contact.sent_title')}</h2>
+              <p className="text-gray-500 mb-8">{t('contact.sent_desc')}</p>
               <button
                 onClick={() => setSubmitted(false)}
                 className="text-blue-600 font-bold hover:underline"
               >
-                Enviar outra mensagem
+                {t('contact.send_another')}
               </button>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="space-y-2">
-                <label className="text-sm font-bold text-gray-700 ml-1">Seu Nome</label>
+                <label className="text-sm font-bold text-gray-700 ml-1">{t('contact.form_name')}</label>
                 <input
                   required
                   type="text"
@@ -76,7 +78,7 @@ export const ContactPage: React.FC = () => {
                 />
               </div>
               <div className="space-y-2">
-                <label className="text-sm font-bold text-gray-700 ml-1">E-mail para resposta</label>
+                <label className="text-sm font-bold text-gray-700 ml-1">{t('contact.form_email')}</label>
                 <input
                   required
                   type="email"
@@ -85,11 +87,11 @@ export const ContactPage: React.FC = () => {
                 />
               </div>
               <div className="space-y-2">
-                <label className="text-sm font-bold text-gray-700 ml-1">Mensagem</label>
+                <label className="text-sm font-bold text-gray-700 ml-1">{t('contact.form_message')}</label>
                 <textarea
                   required
                   rows={5}
-                  placeholder="Como podemos te ajudar hoje?"
+                  placeholder={t('contact.form_message_placeholder')}
                   className="w-full p-4 bg-gray-50 border border-gray-100 rounded-2xl focus:ring-4 focus:ring-blue-100 focus:bg-white outline-none transition-all"
                 />
               </div>
@@ -98,8 +100,8 @@ export const ContactPage: React.FC = () => {
                 type="submit"
                 className="w-full bg-blue-600 text-white py-4 rounded-2xl font-black text-lg hover:bg-blue-700 transition-all flex items-center justify-center shadow-lg shadow-blue-100 disabled:opacity-50"
               >
-                {loading ? "Enviando..." : (
-                  <>Enviar Mensagem <Send size={20} className="ml-3" /></>
+                {loading ? t('contact.sending') : (
+                  <>{t('contact.send_button')} <Send size={20} className="ml-3" /></>
                 )}
               </button>
             </form>

@@ -1,5 +1,6 @@
 
 import { BlogPost, ResumeData } from './types';
+import { ADDITIONAL_BLOG_POSTS } from './additional_posts';
 
 export const INITIAL_RESUME_DATA: ResumeData = {
   name: 'Seu Nome Completo',
@@ -311,5 +312,6 @@ Cores berrantes, fontes difíceis de ler e falta de espaços em branco cansam a 
 Antes de clicar em enviar, faça um checklist desses 10 pontos. Um currículo limpo de erros é o primeiro passo para o sucesso.
 
 Precisa de um modelo seguro e profissional? Nosso gerador já corrige automaticamente vários desses problemas de estrutura!`
-  }
+  },
+  ...ADDITIONAL_BLOG_POSTS
 ];
